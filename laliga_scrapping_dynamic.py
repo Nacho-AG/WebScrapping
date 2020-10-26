@@ -29,7 +29,7 @@ def main():
     with open('results.txt','w', encoding='utf-8') as file:
         last_week = False
         week=0
-        file.write("LOCAL_TEAM, LOCAL_SCORE, VISITING_TEAM, VISITING_SCORE\n")
+        file.write("LOCAL_TEAM, LOCAL_SCORE, VISITING_SCORE, VISITING_TEAM\n")
         while(not last_week):
             week += 1
             print('Ready for week: ' + str(week))
