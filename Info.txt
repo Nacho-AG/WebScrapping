@@ -1,0 +1,25 @@
+I start to learn web scrapping.
+
+First thing is to learn how to extract data from web pages and there are two basic ways of doing it: 
+
+-Static pages -> Beautiful Soup
+-Dynamic pages -> Selenium (or requests-html but this is only supported for python 3.6)
+
+# Selenium:
+
+Cuando conseguimos mediante una url y el metodo get el "browser".
+
+browser.page_source nos devuelve el HTML
+browser.title -> titulo 
+browser.current_url -> url 
+browser.save_screenshot(name) -> guardará una screenshot con el nombre en cuestión
+browser.execute_javascript(js_code) -> nos permite ejecutar codigo js
+
+Sobre los WebElement:
+
+element.text -> texto del elemento
+element.click() -> simula un click en el elemento
+element.get_attribute('class') -> accede al atributo en cueestion
+element.send_keys(), ...
+
+When you try to scrape the webpage you have to understand how much time will the element you area looking for is going to take to load, because you can have troubles
