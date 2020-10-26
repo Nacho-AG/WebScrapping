@@ -1,3 +1,4 @@
+LOCAL_TEAM, LOCAL_SCORE, VISITING_TEAM, VISITING_SCORE
 Elche,2,1,Valencia
 Barcelona,1,3,R. Madrid
 Sevilla,0,1,Eibar
@@ -7,6 +8,7 @@ Valladolid,0,2,Alavés
 Cádiz,0,0,Villarreal
 Getafe,0,1,Granada
 R. Sociedad,4,1,Huesca
+LOCAL_TEAM, LOCAL_SCORE, VISITING_TEAM, VISITING_SCORE
 Granada,1,0,Sevilla
 Celta,0,2,Atlético
 R. Madrid,0,1,Cádiz
@@ -17,6 +19,7 @@ Villarreal,2,1,Valencia
 Alavés,0,2,Elche
 Huesca,2,2,Valladolid
 Betis,0,3,R. Sociedad
+LOCAL_TEAM, LOCAL_SCORE, VISITING_TEAM, VISITING_SCORE
 Valladolid,1,2,Eibar
 Atlético,0,0,Villarreal
 R. Sociedad,3,0,Getafe
@@ -27,6 +30,7 @@ Alavés,1,0,Athletic
 Levante,0,2,R. Madrid
 Cádiz,1,1,Granada
 Barcelona,1,1,Sevilla
+LOCAL_TEAM, LOCAL_SCORE, VISITING_TEAM, VISITING_SCORE
 R. Sociedad,0,1,Valencia
 Getafe,3,0,Betis
 Villarreal,3,1,Alavés
@@ -36,6 +40,7 @@ Eibar,0,1,Elche
 Sevilla,1,0,Levante
 Athletic,0,1,Cádiz
 Celta,0,3,Barcelona
+LOCAL_TEAM, LOCAL_SCORE, VISITING_TEAM, VISITING_SCORE
 Alavés,0,0,Getafe
 Valencia,1,1,Huesca
 Elche,0,3,R. Sociedad
@@ -46,6 +51,7 @@ Atlético,6,1,Granada
 Cádiz,1,3,Sevilla
 Valladolid,1,1,Celta
 Barcelona,4,0,Villarreal
+LOCAL_TEAM, LOCAL_SCORE, VISITING_TEAM, VISITING_SCORE
 Villarreal,2,1,Eibar
 Getafe,1,0,Osasuna
 Celta,2,1,Valencia
@@ -53,6 +59,7 @@ Huesca,0,2,Cádiz
 Betis,2,0,Valladolid
 Granada,2,1,Alavés
 R. Sociedad,0,0,R. Madrid
+LOCAL_TEAM, LOCAL_SCORE, VISITING_TEAM, VISITING_SCORE
 Eibar,0,0,Celta
 Granada,2,0,Athletic
 Cádiz,0,2,Osasuna
