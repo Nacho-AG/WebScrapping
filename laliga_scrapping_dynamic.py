@@ -29,6 +29,7 @@ def main():
     with open('results.txt','w', encoding='utf-8') as file:
         last_week = False
         week=0
+        file.write("LOCAL_TEAM, LOCAL_SCORE, VISITING_TEAM, VISITING_SCORE\n")
         while(not last_week):
             week += 1
             print('Ready for week: ' + str(week))
@@ -36,7 +37,6 @@ def main():
             # Wait for the results to be loaded 
             matches = WebDriverWait(browser, 10).until(EC.presence_of_all_elements_located((By.CLASS_NAME, 'final')))
             # Go throught the week matches
-            file.write("LOCAL_TEAM, LOCAL_SCORE, VISITING_TEAM, VISITING_SCORE\n")
             for match in matches[::2]:
                 info = match.find_elements_by_tag_name('a')
                 teams, score = info
